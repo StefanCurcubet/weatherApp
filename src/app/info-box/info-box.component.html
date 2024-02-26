@@ -1,0 +1,14 @@
+<div class="container items-center rounded shadow-2xl mt-2 p-5" style="background-color: bisque;">
+    <div class="flex justify-between cursor-default">
+        <div class="my-auto">
+            <p class="font-bold">Weather in {{data.name}}</p>
+            <p>Currently it's {{data.weather[0].description}}</p>
+            <p>The humidity is {{data.main.humidity}}%</p>
+        </div>
+        <div class="flex flex-col ms-8">
+            <img src='https://openweathermap.org/img/wn/{{data.weather[0].icon}}@2x.png' style="margin-top: -35px;">
+            <p class="text-2xl text-center" style="margin-top: -25px;">{{data.main.temp | number: '1.0-0'}}°C</p>
+            <p>feels like {{data.main.feels_like | number: '1.0-0'}}°C</p>
+        </div>
+    </div>
+</div>

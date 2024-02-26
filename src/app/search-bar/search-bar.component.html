@@ -1,0 +1,6 @@
+<div class="container flex">
+    <div>
+        <input [(ngModel)]="inputValue" type="text" class="rounded text-center shadow p-1" placeholder="Search by city" (keydown.enter)="submitQuerry()" />
+        <button class="rounded bg-white shadow ms-2 p-1" style="cursor: pointer;" type="button" (click)="submitQuerry()">Search</button>
+    </div>
+</div>
