@@ -1,3 +1,6 @@
+Simple weather app created using Angular CLI that relies on api calls made to a weather API with location names received from user input.
+- hosted on https://stefancurcubet.github.io/weatherApp/
+
 # WeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
