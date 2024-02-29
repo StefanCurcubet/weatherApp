@@ -1,4 +1,4 @@
-import { Component, OnChanges, SimpleChange, SimpleChanges } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { SearchBarComponent } from "./search-bar/search-bar.component";
 import { ApiService } from './services/api.service';
