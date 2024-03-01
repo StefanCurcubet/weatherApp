@@ -15,6 +15,8 @@ export class SearchBarComponent {
   inputValue: string = '';
 
   submitQuerry() {
-    this.submitEvent.emit(this.inputValue);
+    if (this.inputValue) {
+      this.submitEvent.emit(this.inputValue);
+    }
   }
 }
